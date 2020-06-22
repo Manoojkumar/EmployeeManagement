@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jg1-8c-dQA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jg1-8c-dQA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -87,7 +88,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" spacing="60"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMPLOYEE MANAGEMENT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxb-Nj-Inc">
-                                <rect key="frame" x="23" y="88" width="368" height="166"/>
+                                <rect key="frame" x="23" y="108" width="368" height="146"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -102,7 +103,7 @@
                             <constraint firstItem="XYm-69-6zZ" firstAttribute="top" secondItem="cxb-Nj-Inc" secondAttribute="bottom" constant="50" id="Gxp-te-g3f"/>
                             <constraint firstItem="XYm-69-6zZ" firstAttribute="centerY" secondItem="Pnv-Mf-Ia4" secondAttribute="centerY" constant="-80" id="T4O-kl-Zv0"/>
                             <constraint firstItem="cxb-Nj-Inc" firstAttribute="leading" secondItem="6NG-BD-uet" secondAttribute="leading" constant="23" id="YZT-I1-XGW"/>
-                            <constraint firstItem="cxb-Nj-Inc" firstAttribute="top" secondItem="6NG-BD-uet" secondAttribute="top" id="bdb-Qy-TSR"/>
+                            <constraint firstItem="cxb-Nj-Inc" firstAttribute="top" secondItem="6NG-BD-uet" secondAttribute="top" constant="20" id="bdb-Qy-TSR"/>
                             <constraint firstItem="XYm-69-6zZ" firstAttribute="centerX" secondItem="6NG-BD-uet" secondAttribute="centerX" id="dnH-ze-TZz"/>
                             <constraint firstItem="XYm-69-6zZ" firstAttribute="leading" secondItem="6NG-BD-uet" secondAttribute="leading" constant="23" id="tAe-6F-CkR"/>
                             <constraint firstItem="6NG-BD-uet" firstAttribute="trailing" secondItem="cxb-Nj-Inc" secondAttribute="trailing" constant="23" id="vqy-Q8-cS9"/>
@@ -1304,7 +1305,7 @@
     <resources>
         <image name="calendar5" width="22" height="22"/>
         <image name="camera" width="32" height="32"/>
-        <image name="square.and.pencil" catalog="system" width="64" height="58"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="118"/>
         <image name="user1" width="128" height="128"/>
     </resources>
 </document>

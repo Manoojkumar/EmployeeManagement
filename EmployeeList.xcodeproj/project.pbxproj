@@ -25,6 +25,7 @@
 		76EC1AF32493E97E0078BA57 /* EmployeeDetailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC1AF12493E97E0078BA57 /* EmployeeDetailListTableViewCell.swift */; };
 		76EC1AF42493E97E0078BA57 /* EmployeeDetailListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EC1AF22493E97E0078BA57 /* EmployeeDetailListTableViewCell.xib */; };
 		76EC1AF62493ED910078BA57 /* EmployeeDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EC1AF52493ED910078BA57 /* EmployeeDetailListViewController.swift */; };
+		A68463B27B5BCCF1B183EBEC /* libPods-EmployeeList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BE59290F664DABD6AC6A3D /* libPods-EmployeeList.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68463B27B5BCCF1B183EBEC /* libPods-EmployeeList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
