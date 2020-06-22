@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import UIKit
+
+@IBDesignable
+class CornerRadius: UIView{
+    
+    @IBInspectable var cornerRadius: CGFloat = 5.0
+    
+    override func layoutSubviews() {
+        layer.cornerRadius = cornerRadius
+        layer.masksToBounds = false
+    }
+
+}

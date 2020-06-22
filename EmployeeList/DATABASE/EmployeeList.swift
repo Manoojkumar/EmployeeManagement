@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Employee{
+class EmployeeList{
 
     var name: String
     var userID: Int
@@ -16,13 +16,13 @@ class Employee{
     var dob: String
     var streetName: String
     var pincode: String
-    var userImage: String
-    var barCode: String
+    var userImage: Data
+    var barCode: Data
+    var geoLocation: String
     var weather: String
-    var currentTime: String
     var showIdCard: String
 
-    init(name: String, userID: Int, email: String, dob: String, streetName: String, pincode: String, userImage: String, barCode: String, weather: String, currentTime: String, showIdCard: String) {
+    init(name: String, userID: Int, email: String, dob: String, streetName: String, pincode: String, userImage: Data, barCode: Data,geoLocation: String, weather: String, showIdCard: String) {
 
         self.name = name
         self.userID = userID
@@ -32,8 +32,8 @@ class Employee{
         self.pincode = pincode
         self.userImage = userImage
         self.barCode = barCode
+        self.geoLocation = geoLocation
         self.weather = weather
-        self.currentTime = currentTime
         self.showIdCard = showIdCard
     }
 }

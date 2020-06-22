@@ -1,21 +1,141 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EmployeeDetailListTableViewCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="EmployeeDetailListTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="EmployeeDetailListTableViewCell" rowHeight="162" id="KGk-i7-Jjw" customClass="EmployeeDetailListTableViewCell" customModule="EmployeeList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="477" height="162"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="477" height="162"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mzs-Dr-fZR" customClass="CardView" customModule="EmployeeList" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="461" height="148"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manoojkumar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y60-Pv-wsQ">
+                                <rect key="frame" x="125" y="10" width="328" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.20000000000000001" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20-10-1995" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUR-gC-cna">
+                                <rect key="frame" x="125" y="42" width="307" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.20000000000000001" blue="0.33333333329999998" alpha="0.89185573630136983" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="manoojkumar@icloud.com" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xzf-lc-1hL">
+                                <rect key="frame" x="125" y="68" width="293" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.20000000000000001" blue="0.33333333329999998" alpha="0.89185573630136983" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Near Kovil Street" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Fzl-PU-ebC">
+                                <rect key="frame" x="125" y="94" width="328" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.20000000000000001" blue="0.33333333329999998" alpha="0.89185573630136983" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="641670" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Zat-MQ-FZ2">
+                                <rect key="frame" x="125" y="120" width="182" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.20000000000000001" blue="0.33333333329999998" alpha="0.89185573630136983" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygQ-CV-brd">
+                                <rect key="frame" x="10" y="24" width="100" height="100"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user1" translatesAutoresizingMaskIntoConstraints="NO" id="wOG-Bo-FRl">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="Moi-zd-DIx"/>
+                                            <constraint firstAttribute="height" constant="100" id="znW-8A-bzv"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="wOG-Bo-FRl" firstAttribute="leading" secondItem="ygQ-CV-brd" secondAttribute="leading" id="0OU-Cj-NQ2"/>
+                                    <constraint firstAttribute="height" constant="100" id="3Eg-Gp-qvu"/>
+                                    <constraint firstItem="wOG-Bo-FRl" firstAttribute="top" secondItem="ygQ-CV-brd" secondAttribute="top" id="Fbx-6H-HVv"/>
+                                    <constraint firstAttribute="bottom" secondItem="wOG-Bo-FRl" secondAttribute="bottom" id="Tik-e1-9Y8"/>
+                                    <constraint firstAttribute="trailing" secondItem="wOG-Bo-FRl" secondAttribute="trailing" id="U3L-Ll-mzA"/>
+                                    <constraint firstAttribute="width" constant="100" id="vUd-8B-SB8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Id Card Status: No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2JK-qB-JvI">
+                                <rect key="frame" x="339.5" y="121" width="113.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.20000000000000001" blue="0.33333333329999998" alpha="0.89185573630000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-Zk-hiN">
+                                <rect key="frame" x="441" y="68" width="12" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="DzH-lX-ohF"/>
+                                    <constraint firstAttribute="width" constant="12" id="m4l-GY-jG7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2JK-qB-JvI" secondAttribute="trailing" constant="8" id="1oM-Is-Sq6"/>
+                            <constraint firstItem="GUR-gC-cna" firstAttribute="leading" secondItem="ygQ-CV-brd" secondAttribute="trailing" constant="15" id="1x8-ru-5Yn"/>
+                            <constraint firstItem="Y60-Pv-wsQ" firstAttribute="leading" secondItem="ygQ-CV-brd" secondAttribute="trailing" constant="15" id="1y2-6M-FF2"/>
+                            <constraint firstAttribute="trailing" secondItem="GUR-gC-cna" secondAttribute="trailing" constant="29" id="60G-8T-Q0b"/>
+                            <constraint firstItem="ygQ-CV-brd" firstAttribute="centerY" secondItem="Mzs-Dr-fZR" secondAttribute="centerY" id="B8p-Qp-Zem"/>
+                            <constraint firstItem="Xzf-lc-1hL" firstAttribute="top" secondItem="GUR-gC-cna" secondAttribute="bottom" constant="8" id="FNs-VT-J69"/>
+                            <constraint firstItem="2JK-qB-JvI" firstAttribute="leading" secondItem="Zat-MQ-FZ2" secondAttribute="trailing" constant="32.5" id="GNi-EL-B57"/>
+                            <constraint firstItem="Zat-MQ-FZ2" firstAttribute="leading" secondItem="ygQ-CV-brd" secondAttribute="trailing" constant="15" id="JO2-fq-aXO"/>
+                            <constraint firstItem="Y60-Pv-wsQ" firstAttribute="top" secondItem="Mzs-Dr-fZR" secondAttribute="top" constant="10" id="MwQ-Jn-baI"/>
+                            <constraint firstItem="2JK-qB-JvI" firstAttribute="centerY" secondItem="Zat-MQ-FZ2" secondAttribute="centerY" id="NoT-uZ-ZTV"/>
+                            <constraint firstAttribute="trailing" secondItem="Y60-Pv-wsQ" secondAttribute="trailing" constant="8" id="Ow1-QG-Y1r"/>
+                            <constraint firstItem="Xzf-lc-1hL" firstAttribute="leading" secondItem="ygQ-CV-brd" secondAttribute="trailing" constant="15" id="QoO-8i-ifi"/>
+                            <constraint firstAttribute="trailing" secondItem="Fzl-PU-ebC" secondAttribute="trailing" constant="8" id="Wm4-fQ-Z5s"/>
+                            <constraint firstItem="ygQ-CV-brd" firstAttribute="leading" secondItem="Mzs-Dr-fZR" secondAttribute="leading" constant="10" id="ZkK-c6-d1c"/>
+                            <constraint firstItem="Zat-MQ-FZ2" firstAttribute="top" secondItem="Fzl-PU-ebC" secondAttribute="bottom" constant="8" id="dKm-s1-1sT"/>
+                            <constraint firstItem="Fzl-PU-ebC" firstAttribute="top" secondItem="Xzf-lc-1hL" secondAttribute="bottom" constant="8" id="e0J-6c-5ev"/>
+                            <constraint firstAttribute="trailing" secondItem="8Id-Zk-hiN" secondAttribute="trailing" constant="8" id="g7I-dj-neP"/>
+                            <constraint firstAttribute="bottom" secondItem="Zat-MQ-FZ2" secondAttribute="bottom" constant="10" id="iEi-S2-Rv6"/>
+                            <constraint firstAttribute="trailing" secondItem="8Id-Zk-hiN" secondAttribute="trailing" constant="8" id="kRJ-no-7ns"/>
+                            <constraint firstAttribute="trailing" secondItem="Xzf-lc-1hL" secondAttribute="trailing" constant="43" id="nu1-Ri-pJH"/>
+                            <constraint firstItem="8Id-Zk-hiN" firstAttribute="centerY" secondItem="Mzs-Dr-fZR" secondAttribute="centerY" id="sQi-Q8-XDa"/>
+                            <constraint firstItem="Fzl-PU-ebC" firstAttribute="leading" secondItem="ygQ-CV-brd" secondAttribute="trailing" constant="15" id="u0i-6J-qWe"/>
+                            <constraint firstItem="GUR-gC-cna" firstAttribute="top" secondItem="Y60-Pv-wsQ" secondAttribute="bottom" constant="8" id="yDC-3e-xWG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Mzs-Dr-fZR" secondAttribute="trailing" constant="8" id="DMr-Pp-PWI"/>
+                    <constraint firstItem="Mzs-Dr-fZR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="VmR-Bh-eZG"/>
+                    <constraint firstItem="Mzs-Dr-fZR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gW3-cc-c8P"/>
+                    <constraint firstAttribute="bottom" secondItem="Mzs-Dr-fZR" secondAttribute="bottom" constant="6" id="k3r-ii-Mgd"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dobLbl" destination="GUR-gC-cna" id="A8h-nL-H45"/>
+                <outlet property="emailLbl" destination="Xzf-lc-1hL" id="MOy-HC-LjN"/>
+                <outlet property="idCardStatusLbl" destination="2JK-qB-JvI" id="Ljk-Pr-bnX"/>
+                <outlet property="imageUiView" destination="ygQ-CV-brd" id="0jk-4i-tA0"/>
+                <outlet property="namelbl" destination="Y60-Pv-wsQ" id="E5F-3S-0BZ"/>
+                <outlet property="pincodeLbl" destination="Zat-MQ-FZ2" id="gTi-oJ-bh1"/>
+                <outlet property="streetLbl" destination="Fzl-PU-ebC" id="ySQ-5e-mBO"/>
+                <outlet property="userImage" destination="wOG-Bo-FRl" id="OET-Zj-ifz"/>
+            </connections>
+            <point key="canvasLocation" x="103.62318840579711" y="228.34821428571428"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="right-arrow" width="512" height="512"/>
+        <image name="user1" width="128" height="128"/>
+    </resources>
 </document>

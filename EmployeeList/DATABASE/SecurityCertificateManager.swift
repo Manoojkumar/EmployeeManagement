@@ -14,7 +14,7 @@ class SecurityCertificateManager {
     
     let defaultManager: Alamofire.SessionManager = {
         let serverTrustPolicies: [String: ServerTrustPolicy] = [
-            "\(Constant.BASE_SERVER)": .disableEvaluation
+            "http://api.openweathermap.org/data/2.5/weather": .disableEvaluation
         ]
         
         let configuration = URLSessionConfiguration.default
